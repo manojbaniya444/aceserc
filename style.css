@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+html {
+  scroll-behavior: smooth;
+  scrollbar-color: red;
+
+}
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  outline:none;
+  text-decoration: none;
+  font-family: 'Josefin Sans'
+}
+
+p{
+  margin-bottom:15px;
+  font-size: 15px;
+  line-height: 20px;
+  color: black;
+  
+}
+h1.title{
+  margin-bottom: 20px;
+  color: #444444;
+  font-family: 'Cedarville Cursive',cursive;
+  font-size:38px;
+  word-spacing: 25px;
+  letter-spacing: 5px;
+}
+
+
+  .btn a {
+    display:block;
+    width: 200px;
+    height:35px;
+    border: 2.5px solid blue;
+    background-color:;
+    border-radius: 10px;
+    border-radius-cc
+    color: blue;
+    text-align: center;
+    margin: 0 auto;
+    padding-top:8px;
+}
+
+
+.main-container {
+  position: relative;
+  }
+/*navigation*/  
+.navbar{
+  width:100%;
+  height:60px;
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+  position: absolute;
+}
+  
+  .logo a{
+    font-family:'allura';
+    font-size: 50px;
+    color: white;
+    align-items: center;
+    
+  }
+  .navbar .navbar_items ul{
+    display: flex ;
+  }
+  .navbar .navbar_items ul li{
+    text-transform: uppercase;
+    margin:0 10px;
+  }
+  .navbar .navbar_items ul li a{
+    color:#fff;
+  }
+  /*banner*/
+  .banner_image{
+    background: url("cc.jpg") no-repeat top center;
+    width:100%;
+    height: 800px;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    
+  }
+.banner_content{
+  text-align: center;
+  color:#fff;
+}
+.banner_content h1{
+  text-transform: uppercase;
+  line-height: 38px;
+  margin-bottom: 15px;
+  color:white;
+}
+.banner_content h1 span{
+  color: wheat;
+  
+}/*about and our services*/
+.contact,.about,.services,.container{
+  padding:5% 10%;
+  text-align: center;
+  color: black;
+}
+.services{
+  background: darkgrey;
+}
+.diff-services{
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  
+}
+.diff-services img{
+  display: block;
+  transition: all 1s ease;
+  cursor: pointer;
+  /*height: auto;*/
+  
+}
+.diff-services h2{
+  color: red;
+}
+/**/
+.columns-flex img,
+.grid-box-column img {
+  width: 90px;
+}
+
+#grid-box {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+background-color: white;
+  overflow: hidden;
+}
+#grid-box h2{
+  text-align: center;
+}
+/**/
+.contact{
+  background-color: grey;
+}
+
+html{
+  scroll-behavior: smooth;
+  scrollbar-color: red;
+  
+}
+
+.diff-services .service1:hover img{
+  transform: scale(1.1);
+}
+.about .executive:hoover img{
+  transform: scale(1.1);
+}
+.form_input{
+  margin-bottom: 15px;
+}
+.form_input input[type="text"]{
+  width: 260px;
+  padding: 12px 25px;
+  border: 1px solid #ccc;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+.form_input textarea{
+  width: 250px;
+  resize: none;
+  height: 100px;
+  padding: 12px 20px;
+  border:1px solid red;
+  border-radius: 10px;
+}
+
+@media (max-width: 750px){
+  .navbar{
+    height: auto;
+    flex-direction: column;
+    
+  }
+  .navbar ul{
+    flex-direction: column;
+    text-align: center;
+    
+  }
+  
+  .logo{
+   margin-bottom: 25px;
+  }
+  .navbar ul li{
+    margin-bottom: 5px;
+    
+  }
+  .banner_content{
+    margin-top: 35px;
+  }
+  .services img{
+    width: 100px;
+    height: 100px;
+  }
+  .executive img{
+    width: 300px;
+    height: 300px;
+  }
+  .contact img{
+    width: 300px;
+  }
+  .gallery img{
+    height: 400px;
+  }
+  
+}
+@media (max-width:300px){
+  .executive img{
+    width: 200px;
+  }
+  .services img{
+    width: 60px;
+  }
+  .contact img{
+    width: 130px;
+  }
+  navbar{
+    height: auto;
+    flex-direction: column;
+    
+  }
+  .navbar ul{
+    flex-direction: column;
+    text-align: center;
+    
+  }
+  
+  .logo{
+   margin-bottom: 25px;
+  }
+  .navbar ul li{
+    margin-bottom: 5px;
+    
+  }
+  .banner_content{
+    margin-top: 35px;
+  }
+}
+
+@media (min-width:1200px){
+  .executive img{
+    width: 1000px;
+  }
+  
+}
+@media (min-width:800px){
+  .executive img{
+    width: 650px;
+  }
+}
