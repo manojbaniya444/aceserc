@@ -251,15 +251,3 @@ html{
     margin-top: 35px;
   }
 }
-
-@media (min-width:1200px){
-  .executive img{
-    width: 1000px;
-  }
-  
-}
-@media (max-width:800px){
-  .executive img{
-    width: 650px;
-  }
-}
