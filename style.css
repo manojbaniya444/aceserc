@@ -258,7 +258,7 @@ html{
   }
   
 }
-@media (min-width:800px){
+@media (max-width:800px){
   .executive img{
     width: 650px;
   }
